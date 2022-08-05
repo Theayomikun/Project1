@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+nav{
+	background-image:url("../back.png");
+	min-height: 600px;
+}
+ul{
+	list-style: none;
+}
+.container-list{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+li{
+	margin: 10px;
+}
+.small-head{
+	width: 30%;
+	margin: 100px;
+	padding-left: 80px;
+}
+nav h1{
+	font-size: 40px;
+}
+nav div{
+	position: relative;
+}
+button{
+	background: #F84646;
+	color: white;
+	padding: 8px;
+	border:none;
+	border-radius: 0.3em;
+}
+nav input{
+	width: 60%;
+	background: white;
+	padding: 12px;
+	border: none;
+	position: absolute;
+}
+.move button{
+	position: absolute;
+	margin-left:200px;
+	margin-top:4px;
+}
+.first{
+	text-align: center;
+	width: 50%;
+	margin:90px  auto;
+}
+.flex{
+	display: flex;
+	justify-content: center;
+}
+.flex ul{
+	display: flex;
+	justify-content: space-around;
+	width: 1200px;
+	flex-wrap: wrap;
+}
+.flex li{
+	width: 290px;
+}
+.Frame{
+	background: #F84646;
+	width: 100%;
+	margin-top: 90px;
+}
+.flex-2 ul{
+	display: flex;
+	justify-content: space-around;
+	width: 920px;
+	flex-wrap: wrap;
+}
+.flex-2 li{
+	width: 290px;
+}
+.flex-2 h1{
+	font-size: 40px;
+}
+.flex-2 p{
+	font-size: 15px;
+	color: grey;
+}
+.flex-2{
+	margin-top: 90px;
+	display: flex;
+	justify-content: center;
+}
+.flex-2 button{
+	width: 30%;
+}
+.frame-2{
+	width: 100%;
+	margin-top: 80px;
+}
+.foot{
+	text-align: center;	
+	margin-top: 90px;
+}
+.foot button{
+	width: 10%;
+	padding: 12px;
+}
+.footer1{
+	width: 100%;
+	margin-top: 90px;
+}
+@media(max-width: 500px){
+	body{
+		text-align: center;
+	}
+	.container-list li:not(.button){
+		display: none;
+	}
+	nav h1{
+		text-align: center;
+		width: 230%;
+		margin-left:-120px;
+		padding-bottom: 20px;
+	}
+	nav p{
+		width: 280%;
+		margin-left:-150px;
+	}
+	.move{
+		margin-left: -350px;
+		position: relative;
+	}
+	.move input{
+		padding: 20px;
+
+	}
+	.move button{
+		width: 17%;
+		padding: 15px;
+		position: absolute;
+		margin-left: 240px;
+	}
+	.foot button{
+		width: 50%;
+	}
+	
+}
