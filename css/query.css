@@ -4,6 +4,7 @@
 }
 body{
 	font-family: sans-serif;
+
 }
 nav{
 	background-image:url("../back.png");
@@ -113,7 +114,7 @@ nav input{
 	width: 100%;
 	margin-top: 90px;
 }
-@media(max-width: 500px){
+@media(max-width: 600px){
 	body{
 		text-align: center;
 	}
@@ -146,6 +147,12 @@ nav input{
 	}
 	.foot button{
 		width: 50%;
+	}
+	.flex-2 img{
+		width: 300px;
+	}
+	.illus{
+		margin-left: 42px;
 	}
 	
 }
